@@ -4,8 +4,6 @@ import { fileURLToPath } from "url";
 import { indexRouter } from "./routes/index.route.js";
 import { ApiResponse } from "./utils/ApiResponse.js";
 import cors from "cors";
-import adminRouter from "./routes/admin.route.js"; // Import the new admin routes
-
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -19,12 +17,12 @@ app.use(
   })
 );
 
+
 app.use(express.json());
 
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
 app.use("/", indexRouter);
-app.use("/api/admin", adminRouter); // Use the new admin routes in the Express app
 
 app.use("/*", (req, res, next) => {
   return res
