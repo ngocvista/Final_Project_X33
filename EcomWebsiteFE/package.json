@@ -18,9 +18,9 @@
     "antd": "^5.21.5",
     "axios": "^1.7.7",
     "bootstrap": "^5.0.2",
-    "EcomWebsite": "file:",
     "crypto-js": "^4.2.0",
     "DTTech": "file:",
+    "EcomWebsite": "file:",
     "martfury": "file:",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.1",
@@ -36,6 +36,7 @@
     "react-toastify": "^7.0.4",
     "redux": "^4.1.1",
     "RhodiShop": "file:",
+    "sass": "^1.86.0",
     "sockjs-client": "^1.6.1",
     "stompjs": "^2.3.3",
     "swiper": "^6.8.3",
@@ -71,7 +72,6 @@
     "@types/crypto-js": "^4.2.2",
     "@types/lodash": "^4.14.172",
     "@types/sockjs-client": "^1.5.4",
-    "@types/stompjs": "^2.3.9",
-    "node-sass": "^6.0.1"
+    "@types/stompjs": "^2.3.9"
   }
 }
