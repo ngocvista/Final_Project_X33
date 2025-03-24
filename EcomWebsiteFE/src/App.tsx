@@ -35,6 +35,7 @@ import NewDetail from "./pages/NewsDetail";
 import RegisterSaller from "./pages/RegisterSaller";
 
 const App: React.FC = () => {
+  // @ts-ignore
   return (
     <Provider store={store}>
       <BrowserRouter>
